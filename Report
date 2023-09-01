@@ -1,0 +1,15 @@
+Overview:
+The purpose of this analysis is to predict if an organization funded by Alphabet Soup will be successful. This is done by compiling over 34,000 organizations and running them through a classification model.
+
+Results:
+-Data Preprocessing:
+  -The target variable is IS_SUCCESSFUL
+  -The model's feature variables are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+  -Two colums were removed to clean the data further and those were EIN and NAME
+-Compiling, Training, and Evaluating the Model
+  -For my initial try I used two hidden layers with 8 and 5 neurons, respectively. The activation function the I used was ReLu. With guidance from the class activities, I chose these variables as a base.
+  -I was unable to achieve the 75% accuracy target.
+  -To try to achieve the 75% accuracy target, I increase the hidden layers, increased the neurons, and, on my last attempt, I changed the activation function for two of the hidden layers.
+
+Summary:
+The results of the deep learning model that I ran did not go higher than 73%. In order to solve this problem, we can use another model that has a greate correlation between input and output.
